@@ -1,20 +1,19 @@
 # wkhtmltopdf-heroku
 
-Simple gem to include binaries for current (April 16, 2014) wkhtmltopdf binaries to your rails project
+This is fork of [apancik's wkhtmltopdf-heroku](https://github.com/apancik/wkhtmltopdf-heroku) (which uses binaries for current (April 16, 2014).
+This gem uses wkhtmltopdf version 0.9.9 and configures wicked_pdf to use this binary.
+
+It worked on OS X and Heroku for me.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'wkhtmltopdf-heroku'
+    gem 'wkhtmltopdf-heroku', git: 'https://github.com/dayweek/wkhtmltopdf-heroku.git'
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install wkhtmltopdf-heroku
+    $ bundle install
 
 ## Contributing
 
