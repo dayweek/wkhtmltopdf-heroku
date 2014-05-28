@@ -1,7 +1,14 @@
 # wkhtmltopdf-heroku
 
-This is fork of [apancik's wkhtmltopdf-heroku](https://github.com/apancik/wkhtmltopdf-heroku) (which uses binaries for current (April 16, 2014).
-This gem uses wkhtmltopdf version 0.9.9 and configures wicked_pdf to use this binary.
+This is fork of [apancik's wkhtmltopdf-heroku](https://github.com/apancik/wkhtmltopdf-heroku)
+
+This gem uses wkhtmltopdf version 0.12.1-rc and configures wicked_pdf to use this binary.
+
+Two binaries are there:
+
+`wkhtmltopdf-amd64` for Heroku, version `0.12.1-c22928d`
+
+`wkhtmltopdf-i368` for OS X, version `0.12.1-7fac78c`
 
 It worked on OS X and Heroku for me.
 
